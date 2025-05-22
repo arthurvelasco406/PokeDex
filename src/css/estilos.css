@@ -32,8 +32,11 @@ h3{
     right: 25%;
     text-align: right;
     height: 4%;
-    
-    
+    font-family: Oxanium;
+}
+
+.pokemon_id{
+    color: #747474;
 }
 
 .form{
@@ -52,6 +55,8 @@ h3{
     border-radius: 5px;
     color: rgb(0, 0, 0);
     box-shadow: -3px 4px rgb(83, 83, 83), -5px 7px black;
+    font-family: Oxanium;
+    padding-left: 10px;
 }
 
 .botoes{
