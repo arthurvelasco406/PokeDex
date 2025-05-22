@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    font-family: "Oxanium" cursive;
+}
+
+img{
+    max-width: 100%;
+}
