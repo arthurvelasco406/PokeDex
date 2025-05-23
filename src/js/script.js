@@ -1,3 +1,5 @@
+renderPokemon('1');
+
 const pokemonName = document.querySelector('.pokemon_nome');
 
 const pokemonId = document.querySelector('.pokemon_id');
@@ -34,4 +36,8 @@ const renderPokemon = async (pokemon) => {
 
 }
 
-renderPokemon('25');
+function next(){
+    let id = parseInt(pokemonId.getHTML);
+    id++;
+    renderPokemon(id);
+}
