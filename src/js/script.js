@@ -4,6 +4,10 @@ const pokemonId = document.querySelector('.pokemon_id')
 
 const pokemonImage = document.querySelector('.pokemon_imagem')
 
+const form = document.querySelector('.form')
+
+const busca = document.querySelector('.campo_busca')
+
 //const pokemonSom = document.querySelector('.pokemon_som');
 
 
@@ -47,5 +51,13 @@ function previous(){
         renderPokemon(id)
     }
 }
+
+form.addEventListener('submit', (event) => {
+    event.preventDefault()
+
+    renderPokemon(busca.value)
+
+    console.log(busca.value)
+})
 
 renderPokemon('1')

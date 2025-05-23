@@ -79,6 +79,7 @@ h3{
     color: white;
     box-shadow: -3px 4px #222, -5px 7px black;
     font-weight: 600;
+    cursor: pointer;
 }
 
 .botao:active{
