@@ -47,17 +47,13 @@ function previous(){
     let id = pokemonId.textContent
     if(id > 1){
         id--
-        console.log(id)
         renderPokemon(id)
     }
 }
 
 form.addEventListener('submit', (event) => {
     event.preventDefault()
-
     renderPokemon(busca.value)
-
-    console.log(busca.value)
 })
 
 renderPokemon('1')
